@@ -1,0 +1,6 @@
+[tfrecords]
+tfrecords_filename = data/brats_img.tfrecords
+batch_size  = 2
+data_shape  = [50, 144, 130, 4]
+weight_shape= [50, 144, 130, 1]
+label_shape = [50, 144, 130, 1]
